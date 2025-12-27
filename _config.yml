@@ -1,7 +1,7 @@
 theme: minima
-title: EG's blog
+title: EG Site
 author : egiberne
-description: About my coding journey.
+description: About my coding journey as Fullstack Developer.
 
 plugins:
   - jekyll-feed
