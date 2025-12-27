@@ -1,4 +1,13 @@
 theme: minima
 title: EG's blog
 author : egiberne
-description: About my coding journey
+description: About my coding journey.
+
+social_links:
+- title: Repositories at GitHub
+        icon: github
+        url: "https://github.com/egiberne"
+        
+- title: Repositories at GitHub
+        icon: x-twitter
+        url: "https://x.com/egiberne_"
