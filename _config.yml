@@ -11,10 +11,10 @@ minima:
   skin: classic
 
 social_links:
- - title: EG at GitHub
- icon: github
- url: "https://github.com/egiberne"
+  - title: EG at GitHub
+    icon: github
+   url: "https://github.com/egiberne"
         
-- title: EG at X
- icon: x-twitter
- url: "https://x.com/egiberne_"
+  - title: EG at X
+    icon: x-twitter
+    url: "https://x.com/egiberne_"
