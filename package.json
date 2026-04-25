@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "vitepress": "^2.0.0-alpha.17"
+  },
+  "scripts": {
+    "blog:dev": "vitepress dev blog",
+    "blog:build": "vitepress build blog",
+     "blog:preview":"vitepress preview blog --port 8080"
+  }
+}
