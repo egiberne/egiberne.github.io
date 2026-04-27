@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.3 2026.04.27
+## Fixed
+Correct the table syntax in the README.md
+## Added 
+Include powershell command line in the article to disable onedrive autoupdate
+
 ## 1.0.2 - 2026.04.25
 ### Fixed
 Correct the command line to build with VitePress. Use  `npm run blog:build instead` of  `npm run docs:build`

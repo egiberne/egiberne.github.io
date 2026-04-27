@@ -6,8 +6,9 @@ egiberne.github.io is the EMERICK GIBERNE's IT blog. Where he is sharing about e
 
 ## Tech
 
-|---|---|
+
 |Name|Description|
+|---|---|
 |Vitepress|SSG - Static Site Generator|
 
 ## Roadmap

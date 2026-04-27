@@ -79,7 +79,19 @@ If you prefer to push configuration via configuration manage like SCCM or MDM:
 
 1. Disable the scheduled task named, **OneDrive Per-Machine Standalone Update Task** using PowerShell
 
+``` powershell
+
+Get-ScheduledTask | where { $_.Taskname -like "*onedrive*"} | Stop-ScheduledTask
+Get-ScheduledTask | where { $_.Taskname -like "*onedrive*"} | Disable-ScheduledTask
+
+```
+
 2. Stop the Windows service called, **OneDrive Updater Service**
+
+``` powershell
+Get-Service | select -Property Displayname | where { $_ -like "*onedrive*"} | Stop-Service
+```
+
 
 This gives you more control over timing and versioning.
 
